@@ -20,7 +20,7 @@ type Table = {
 
 function setTheTable(): Table {
 	// 👉 FIXME ❌
-	const teaSetting: Drink = {type:DRINKS[1], poured: false}
+	const teaSetting: Drink = {type:DRINKS[1], poured: true}
 	const seatForTea : Seat = {drink:teaSetting}
 	return { seats: [seatForTea, seatForTea, seatForTea] };
 }
