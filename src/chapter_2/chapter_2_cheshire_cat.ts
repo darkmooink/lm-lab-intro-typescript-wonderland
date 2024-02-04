@@ -22,6 +22,7 @@ export function meetTheCheshireCat(): void {
 	const theCat = new CheshireCat();
 
 	// 👉 FIXME ❌
+	theCat.expression = EXPRESSIONS[2]
 	// 		Add some code here which allows you to progress *without* altering any other code in this file
 	// 👉 END FIXME ❌
 
